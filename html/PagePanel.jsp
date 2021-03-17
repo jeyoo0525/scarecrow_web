@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 	<title>허수아비</title>
-	<link rel="stylesheet" type="text/css" href="/sweetalert/sweetalert.css?v=1.0goCamera" />
+	<link rel="stylesheet" type="text/css" href="/sweetalert/sweetalert.css?v=1.0" />
 	<style type="text/css">
 		#contents {position:relative; width:100%; height:calc(100% - 50px);}
 	</style>
@@ -21,7 +21,7 @@
 
 <div class="wrap">
 	<div class="contents">
-
+		<p>허수아비 이제 만들어가면 됨 ^^!!</p>
 	</div>
 </div>
 
