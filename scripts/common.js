@@ -4,7 +4,6 @@ let __NewNo = __Today.getFullYear() + __Today.getMonth() + __Today.getDate() + _
 $LAB.setOptions({AlwaysPreserveOrder:true})
 	.script("/scripts/jquery-3.2.1.min.js")
 	.script([
-		"/jqUI/jquery-ui-1.10.4.custom.min.js",
 		"/scripts/jquery.ui.touch-punch.min.js",
 		"/scripts/jquery.form.js"
 	])
@@ -12,7 +11,8 @@ $LAB.setOptions({AlwaysPreserveOrder:true})
 		return [
 			"/scripts/__Default.js?_no=" + __NewNo,
 			"/scripts/__String.js?_no=" + __NewNo,
-			"/scripts/__MobileBridge.js?_no=" + __NewNo
+			"/scripts/__MobileBridge.js?_no=" + __NewNo,
+			"/scripts/PagePanelScript.js?_no=" + __NewNo
 		];
 	})
 	.script(function() {
