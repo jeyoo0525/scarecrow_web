@@ -4,6 +4,7 @@ let __NewNo = __Today.getFullYear() + __Today.getMonth() + __Today.getDate() + _
 $LAB.setOptions({AlwaysPreserveOrder:true})
 	.script("/scripts/jquery-3.2.1.min.js")
 	.script([
+		"/scripts/jquery-ui.1.9.1.js",
 		"/scripts/jquery.ui.touch-punch.min.js",
 		"/scripts/jquery.form.js"
 	])
